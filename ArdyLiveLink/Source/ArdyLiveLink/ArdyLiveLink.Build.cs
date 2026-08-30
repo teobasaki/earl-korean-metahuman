@@ -29,7 +29,7 @@ public class ArdyLiveLink : ModuleRules
 			"Networking",
 			"Json",
 			// ── 팀 수신부 이식 (2026-08-12, `Team/`) ──────────────────────────
-			// 팀 레포 `Source/Earl/Ardy/` 를 그대로 가져왔다. UDP `ardy.motion.v1` 수신 +
+			// Team/ 은 UDP `ardy.motion.v1` 델타 계약 수신 경로다. 수신 +
 			// 모션 안정화 + 손가락 절차 레이어가 우리 TCP 경로보다 완성돼 있다.
 			// 두 경로를 **공존**시킨다 — 팀 클래스만 `UArdyTeam*` 로 개명해 충돌을 피했다.
 			"JsonUtilities"
