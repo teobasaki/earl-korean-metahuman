@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"FriendlyName": "Ardy Live Link",
+	"Description": "ARDY text-to-motion 27-bone JSON-Lines TCP stream -> Live Link animation subject (M1 Task 2)",
+	"Category": "Animation",
+	"CreatedBy": "EARL team (Jun)",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "ArdyLiveLink",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "LiveLink",
+			"Enabled": true
+		}
+	]
+}

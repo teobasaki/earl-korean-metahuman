@@ -1,0 +1,8 @@
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+.DS_Store
+*.dylib
+*.dll
+*.pdb
